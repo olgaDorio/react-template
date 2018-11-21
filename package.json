@@ -54,11 +54,6 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "NODE_ENV=production lint-staged"
-    }
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
